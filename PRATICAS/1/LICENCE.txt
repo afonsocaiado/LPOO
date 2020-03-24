@@ -1,0 +1,3 @@
+This is the license text for our application
+
+Texto para o master
