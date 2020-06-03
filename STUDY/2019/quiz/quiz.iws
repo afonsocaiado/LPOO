@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b435420-c662-432d-9308-eb90bd7ac2cd" name="Default Changelist" comment="" />
+    <list default="true" id="9b435420-c662-432d-9308-eb90bd7ac2cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/quiz.iws" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +29,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="20" />
-    <option name="width" value="1920" />
-    <option name="height" value="1060" />
   </component>
   <component name="ProjectId" id="1coTo0sDZoajNIvI4RkwyBqGoLe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,11 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases.testBand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.testBandArtists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quiz" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="testBand" />
+      <option name="METHOD_NAME" value="testBandArtists" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.testBoxOffice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quiz" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCases" />
+      <option name="METHOD_NAME" value="testBoxOffice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -88,17 +97,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCases" />
       <option name="METHOD_NAME" value="testContains" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCases.testInvalidTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="quiz" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="testInvalidTicket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -135,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestCases" />
-        <item itemvalue="JUnit.TestCases.testInvalidTicket" />
+        <item itemvalue="JUnit.TestCases.testBoxOffice" />
         <item itemvalue="JUnit.TestCases.testParticipates" />
         <item itemvalue="JUnit.TestCases.testContains" />
-        <item itemvalue="JUnit.TestCases.testBand" />
+        <item itemvalue="JUnit.TestCases.testBandArtists" />
       </list>
     </recent_temporary>
   </component>
@@ -164,43 +162,56 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 30m 29s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 31m 45s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 32m 29s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 32m 57s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 34m 47s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testBand - 2019.03.25 at 11h 34m 56s.xml">
-      <configuration name="TestCases.testBand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 40m 00s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testParticipates - 2019.03.25 at 11h 40m 05s.xml">
-      <configuration name="TestCases.testParticipates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases - 2019.03.25 at 11h 40m 12s.xml">
-      <configuration name="TestCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases - 2019.03.25 at 11h 49m 34s.xml">
-      <configuration name="TestCases" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591202699792">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1591195930657" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.812@0.23.1440.812" timestamp="1591202699792" />
+    <state x="533" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1591198273336">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591198273336" />
     <state x="554" y="347" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591194135968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="554" y="347" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1591194135968" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591202875980">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591202836238" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1591202875980" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591202875978">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591202836236" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1591202875978" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591202875976">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591202836235" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1591202875976" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591202875979">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591202836237" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1591202875979" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1591195696264">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591195696264" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1591195696262">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591195696262" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1591195696262">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591195696262" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1591195696263">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591195696263" />
   </component>
   <component name="masterDetails">
     <states>
