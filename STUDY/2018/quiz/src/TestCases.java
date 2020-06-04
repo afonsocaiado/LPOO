@@ -146,7 +146,7 @@ public class TestCases {
   }
 
 
-/*
+
   @Test
   public void testAudience() {
     Event e = new Event("E1", "Whenever", "Whatever");
@@ -166,9 +166,9 @@ public class TestCases {
     assertEquals(5, e.getAudienceCount());
   }
 
-*/
 
-/*
+
+
   @Test
   public void testNoDuplicatePerson() {
     TreeSet<Person> people = new TreeSet<Person>();
@@ -180,9 +180,9 @@ public class TestCases {
     assertEquals(1, people.size());
   }
 
-*/
 
-/*
+
+
   @Test
   public void testParty() {
     Party p = new Party("FEUP Caffe", "Tonight!", "Party on!");
@@ -207,9 +207,9 @@ public class TestCases {
     assertEquals(3, e.getAudienceCount());
   }
 
-*/
 
-/*
+
+
   @Test
   public void testUsernames() {
     ArrayList<User> users = new ArrayList<User>();
@@ -230,6 +230,6 @@ public class TestCases {
 
     assertEquals(",John43,Bill Gates12,Beck20", s);
   }
-*/
+
 
 }

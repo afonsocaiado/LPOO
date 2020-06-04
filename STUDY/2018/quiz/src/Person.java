@@ -1,4 +1,6 @@
-public abstract class Person {
+import java.util.Objects;
+
+public abstract class Person implements Comparable{
 
     private String name;
     private int age;
@@ -19,5 +21,11 @@ public abstract class Person {
 
     public int getAge() {
         return age;
+    }
+
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }

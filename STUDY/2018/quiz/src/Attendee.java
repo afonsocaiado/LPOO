@@ -1,4 +1,4 @@
-public class Attendee extends Person {
+public class Attendee extends User {
 
     private boolean paid = false;
 

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class Event {
@@ -5,6 +7,8 @@ public class Event {
     private String title;
     private String date;
     private String description;
+
+    List<Person> people = new ArrayList<>();
 
     public Event(String title){
         this.title = title;
@@ -52,6 +56,30 @@ public class Event {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public void addPerson(Person person){
+        people.add(person);
+    }
+
+    public int getAudienceCount(){
+        List<Person> help = new ArrayList<>();
+        boolean exists = false;
+
+        for(Person person : people){
+            for(Person p : help){
+                if(person.getName().equals(p.getName()))
+                    exists = true;
+                else if(!person.getName().equals(p.getName())){
+                    continue;
+                }
+            }
+            if(!exists)
+                help.add(person);
+            exists = false;
+        }
+
+        return help.size();
     }
 
     @Override

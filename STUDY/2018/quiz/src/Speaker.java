@@ -1,4 +1,4 @@
-public class Speaker extends Person {
+public class Speaker extends User {
 
     private int fee = 0;
 
