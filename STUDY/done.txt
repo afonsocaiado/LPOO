@@ -1,0 +1,27 @@
+TESTES
+
+2019 P - Done (Exams)
+2018 P - Done (Exams)
+2016 T - Done (Exams)
+
+SLIDES
+
+Java - Done
+Unit Testing - Done
+SOLID - done (hard)
+UML Class Diagrams - Done
+Design Patterns - Done (abstract factory mal visto)
+Refactoring - Done
+Java Generics - Done (se duvidas ver aula que ha de estar melhor)
+MVC - Done (ver aula se preciso)
+UML Sequence Diagrams - Done
+UML Communication Diagrams - Done
+Inheritance vs. Composition - Done
+Property Based Testing - Done
+UML State Diagrams - !!!
+
+
+Rever Testes Unitarios
+Rever Patterns (parte de código)
+Loose coupling?
+Rever Refactoring (pula up e no geral saber todos mm)
