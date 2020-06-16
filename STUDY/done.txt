@@ -26,9 +26,6 @@ Inheritance vs. Composition - Done
 Property Based Testing - Done
 UML State Diagrams - Meio Done, falta livro
 
+REFACTORING GURU
 
-Rever Testes Unitarios
 Rever Patterns (parte de código e diagramas)
-Rever Refactoring (pula up e no geral saber todos mm)
-PIT / mutation
-
