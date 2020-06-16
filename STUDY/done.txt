@@ -8,6 +8,7 @@ TESTES
 2015 T - Done (Exams)
 2017 T - Done (Exams)
 2013 T - Done (Exams)
+2012 T - Done (Exams)
 
 SLIDES
 
@@ -29,4 +30,5 @@ UML State Diagrams - Meio Done, falta livro
 Rever Testes Unitarios
 Rever Patterns (parte de código e diagramas)
 Rever Refactoring (pula up e no geral saber todos mm)
+PIT / mutation
 
