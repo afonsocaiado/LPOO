@@ -2,7 +2,12 @@ TESTES
 
 2019 P - Done (Exams)
 2018 P - Done (Exams)
+2016 P - Done (Exams) - Um pequeno assertEquals comentado
+2015 P - Done (Exams)
 2016 T - Done (Exams)
+2015 T - Done (Exams)
+2017 T - Done (Exams)
+2013 T - Done (Exams)
 
 SLIDES
 
@@ -18,10 +23,10 @@ UML Sequence Diagrams - Done
 UML Communication Diagrams - Done
 Inheritance vs. Composition - Done
 Property Based Testing - Done
-UML State Diagrams - !!!
+UML State Diagrams - Meio Done, falta livro
 
 
 Rever Testes Unitarios
-Rever Patterns (parte de código)
-Loose coupling?
+Rever Patterns (parte de código e diagramas)
 Rever Refactoring (pula up e no geral saber todos mm)
+
